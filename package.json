@@ -1,6 +1,6 @@
 {
   "name": "consul-gateway",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A gateway and http client for microservices using consul to discover other services and automatically load balance requests on found instances of each service, check if an instance is reachable by the service, and update the list of urls on changes to the registry",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,7 @@
     "type": "git",
     "url": "https://github.com/vectorhacker/consul-gateway.git"
   },
+  "keywords": ["consul", "microservices", "microservice", "requests", "balancer", "load", "gateway", "api"],
   "license": "MIT",
   "dependencies": {
     "asyncawait": "^1.0.6",
