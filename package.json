@@ -1,10 +1,10 @@
 {
   "name": "consul-gateway",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A gateway and http client for microservices using consul to discover other services and automatically load balance requests on found instances of each service, check if an instance is reachable by the service, and update the list of urls on changes to the registry",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test; echo"
   },
   "author": "Victor A. Martinez Santiago <martinezsantiagovictor@outlook.com>",
   "repository": {
