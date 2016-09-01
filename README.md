@@ -2,7 +2,7 @@ Consul Gateway
 =========
 
 A consul connected load balancing http client gateway for microservice
-applications. Loosely based on Martin Fowlers slides on (Testing Strategies in a Microservice Architecture)[http://martinfowler.com/articles/microservice-testing/].
+applications. Loosely based on Martin Fowlers slides on [ Testing Strategies in a Microservice Architecture ](http://martinfowler.com/articles/microservice-testing/).
 
 It uses Consul to get the list of addresses to load balance across and makes
 requests using the request-promise library. It can also automatically update
