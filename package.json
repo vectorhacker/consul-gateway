@@ -1,0 +1,25 @@
+{
+  "name": "consul-gateway",
+  "version": "0.0.1",
+  "description": "A gateway and http client for microservices using consul to discover other services and automatically load balance requests on found instances of each service, check if an instance is reachable by the service, and update the list of urls on changes to the registry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Victor A. Martinez Santiago <martinezsantiagovictor@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "asyncawait": "^1.0.6",
+    "consul": "^0.25.0",
+    "fibers": "^1.0.13",
+    "request": "^2.74.0",
+    "request-promise": "^4.1.1"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.0",
+    "express": "^4.14.0",
+    "body-parser": "^1.15.2",
+    "jasmine-node": "^1.14.5",
+    "mocha": "^3.0.2"
+  }
+}
