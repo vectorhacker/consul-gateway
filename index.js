@@ -1,3 +1,3 @@
-let Gateway = require("./gateway");
+let Gateway = require("./lib/gateway");
 
 module.exports = Gateway;
