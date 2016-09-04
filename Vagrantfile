@@ -40,5 +40,7 @@ Vagrant.configure("2") do |config|
     npm install -g mocha
 
     cd /src/consul-gateway
+
+    consul agent -dev >> /var/log/consul.log &
   SHELL
 end

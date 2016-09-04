@@ -65,6 +65,7 @@ describe("Gateway", () => {
   });
 
   afterEach((done) => {
+    gateway = null;
     consul.agent.service.deregister("test1")
       .then(() => { 
         server.close(error => {

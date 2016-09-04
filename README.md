@@ -13,7 +13,7 @@ Usage:
 ```javascript
 const Gateway = require("consul-gateway");
 
-let serviceGateway = null;
+let gateway = null;
 
 Gateway({ service: "name", version: "1.0" })
   .then(_gateway => {
@@ -31,6 +31,7 @@ function test() {
 Methods:
 
 `Gateway({ consul?: object <consul instance>, rpc?: fn() -> promise, name: string, version: string, refreshDelay?: number }) -> Promise<gateway>`
+The version has to be a consul tag that perfectly matches the version string.
 
 `gateway.get(endpoint: string, options: request-promise options) -> Promise<any>`
 
